@@ -1,6 +1,7 @@
 const myButton = document.getElementById('myButton');
 
 function fini(){
+  alert("ok");
   const loading = document.getElementById('loading');
   loading.classList.add('hidden');
 }

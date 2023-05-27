@@ -33,7 +33,8 @@ h1 {
   font-family: 'Bangers', cursive;
   letter-spacing: 5px;
   border-radius: 10px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px #8705a7;
 }
 
 p {
@@ -64,6 +65,19 @@ span div {
   top: 0;
   left: 0;
   border-radius: 50%;
+}
+
+.background-text{
+  position: fixed;
+  z-index: 40;
+  top: -26.3%;
+  opacity: 0.5;
+  font-size: 20.7vw;
+  font-family: 'Orbitron', sans-serif;
+  color: black;
+  -webkit-text-stroke: 1px white;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .progress-container {

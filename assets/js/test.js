@@ -16,6 +16,8 @@ var loadingBtn = document.getElementById('loadingButton');
 loadingBtn.addEventListener('click', displayFrom);
 
 
+
+
 const numOfPlanets = 150;
 var colorArray = [
   "aliceblue",

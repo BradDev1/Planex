@@ -2,28 +2,36 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Orbitron:wght@500;600&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/splashscreen.css">
-  <title>Connexion</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/splashscreen.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Orbitron:wght@500;600&display=swap"
+        rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.6/lottie.min.js"></script>
+    <title>Document</title>
 </head>
 
 <body>
-  <div id="loading">
-    <div id="square">
-      <h1 id="text">PLANEX</h1>
-      <div id="barContainer" class="progress-container">
-        <div class="progress-bar" id="myBar"></div>
-      </div>
-    </div>
-  </div>
 
-  <button onclick="fini()" id="myButton">Let's Gooo</button>
-  <script src="assets/js/splashscreen.js"></script>
+    <section id="splashscreen">
+        <div id="square">
+            <div class="background-decoration">
+                <p class="text-background fade-in-text">Planex</p>
+                <p class="text-background fade-in-text">Planex</p>
+                <p class="text-background fade-in-text">Planex</p>
+            </div>
+            <div class="loading">
+                <div class="fade-in-move" id="lottie-container"></div>
+                <h1 class="text-behind fade-in-text">Planex</h1>
+                <p id="loadingButton" class="glass-button fade-in-text">Let's Gooo</p>
+
+            </div>
+        </div>
+    </section>
 </body>
+<script src="/assets/js/splashscreen.js"></script>
+
 </html>
